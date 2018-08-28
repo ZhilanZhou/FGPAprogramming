@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/imports/new/ALU.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/imports/Lab/adder.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/imports/Lab/addsub.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/new/bitmapmem.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/imports/new/comparision.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/Lab/controller.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/new/datapath.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/new/dmem.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/imports/new/fulladder.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/new/imem.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/imports/Lab/keyboard.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/imports/new/logical.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/new/memIO.v" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/Lab/mips.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/Lab/register_file.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/new/screenmem.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/imports/new/shifter.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/Lab/top.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/imports/Lab/vgadisplaydriver.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/new/vgatimer.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sources_1/imports/sources_1/imports/new/xycounter.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+sv xil_defaultlib  "../../../Project.srcs/sim_4/imports/Lab/tester_screentest.sv" --include "../../../Project.srcs/sources_1/imports/Lab"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

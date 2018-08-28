@@ -1,0 +1,39 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 4650b274f49c4b37bbee244702deb6e2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot project_screentest_behav xil_defaultlib.project_screentest xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 9 for port pc [C:/Users/MIE/Desktop/COMP541/Lab/Project/Project.srcs/sources_1/imports/Lab/top.sv:52]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 13 for port mips_addr [C:/Users/MIE/Desktop/COMP541/Lab/Project/Project.srcs/sources_1/new/memIO.v:63]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port addr [C:/Users/MIE/Desktop/COMP541/Lab/Project/Project.srcs/sources_1/new/memIO.v:64]
+WARNING: [VRFC 10-278] actual bit length 12 differs from formal bit length 10 for port addr [C:/Users/MIE/Desktop/COMP541/Lab/Project/Project.srcs/sources_1/imports/sources_1/imports/Lab/vgadisplaydriver.sv:34]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.register_file(Nloc=32,Dbits=32)
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.adder(N=32)
+Compiling module xil_defaultlib.addsub
+Compiling module xil_defaultlib.addsub(N=32)
+Compiling module xil_defaultlib.shifter(N=32)
+Compiling module xil_defaultlib.logical(N=32)
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem(Nloc=128,initfile="imem_scr...
+Compiling module xil_defaultlib.screenmem(initfile="smem_screent...
+Compiling module xil_defaultlib.dmem(initfile="dmem_screentest.m...
+Compiling module xil_defaultlib.memIO(Nloc=16,dmem_init="dmem_sc...
+Compiling module xil_defaultlib.xycounter(width=800,height=525)
+Compiling module xil_defaultlib.vgatimer
+Compiling module xil_defaultlib.bitmapmem(initfile="bmem_screent...
+Compiling module xil_defaultlib.vgadisplaydriver(bitmap_init="bm...
+Compiling module xil_defaultlib.keyboard
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.selfcheck_nopause
+Compiling module xil_defaultlib.project_screentest
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot project_screentest_behav

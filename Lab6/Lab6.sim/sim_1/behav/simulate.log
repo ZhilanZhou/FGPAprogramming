@@ -1,0 +1,3 @@
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+$finish called at time : 100 ns : File "C:/Users/MIE/Desktop/COMP541/Lab/Lab6/Lab6.srcs/sim_1/imports/Lab/tester_debounce.sv" Line 41

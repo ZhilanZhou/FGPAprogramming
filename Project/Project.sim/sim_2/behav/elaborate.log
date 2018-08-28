@@ -1,0 +1,32 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto cbc7763814b442a4b43aa093afeee140 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mips_test_sqr_behav xil_defaultlib.mips_test_sqr xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 6 for port ReadAddr1 [C:/Users/MIE/Desktop/COMP541/Lab/Lab8/Lab8.srcs/sources_1/imports/sources_1/new/datapath.sv:74]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 32 for port R [C:/Users/MIE/Desktop/COMP541/Lab/Lab8/Lab8.srcs/sources_1/imports/sources_1/new/datapath.sv:88]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port pc [C:/Users/MIE/Desktop/COMP541/Lab/Lab8/Lab8.srcs/sources_1/imports/Lab/top.sv:23]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port addr [C:/Users/MIE/Desktop/COMP541/Lab/Lab8/Lab8.srcs/sources_1/imports/Lab/top.sv:24]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.register_file(Nloc=64,Dbits=32)
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.adder(N=32)
+Compiling module xil_defaultlib.addsub
+Compiling module xil_defaultlib.addsub(N=32)
+Compiling module xil_defaultlib.shifter(N=32)
+Compiling module xil_defaultlib.logical(N=32)
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.datapath(Nloc=64)
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem(initfile="sqr_imem.mem")
+Compiling module xil_defaultlib.dmem(initfile="sqr_dmem.mem")
+Compiling module xil_defaultlib.top(imem_init="sqr_imem.mem",dme...
+Compiling module xil_defaultlib.selfcheck
+Compiling module xil_defaultlib.mips_test_sqr
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mips_test_sqr_behav

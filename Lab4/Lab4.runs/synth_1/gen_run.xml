@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1505761404">
+  <File Type="PA-TCL" Name="vgadisplaydriver.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="vgadisplaydriver_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="vgadisplaydriver.vds"/>
+  <File Type="RDS-UTIL" Name="vgadisplaydriver_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="vgadisplaydriver_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="vgadisplaydriver.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="vgadisplaydriver_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="vgadisplaydriver_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Lab/display640x480.vh">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../display640x480.vh"/>
+        <Attr Name="ImportTime" Val="1505497786"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vgatimer.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/xycounter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab3a/Lab3a.srcs/sources_1/new/xycounter.sv"/>
+        <Attr Name="ImportTime" Val="1504926666"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab/vgadisplaydriver.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../vgadisplaydriver.sv"/>
+        <Attr Name="ImportTime" Val="1505497815"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab/display10x4.vh">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../display10x4.vh"/>
+        <Attr Name="ImportTime" Val="1505497767"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="vgadisplaydriver"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Lab/clock.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../clock.xdc"/>
+        <Attr Name="ImportTime" Val="1505497840"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/Lab/vga.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../vga.xdc"/>
+        <Attr Name="ImportTime" Val="1505497836"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

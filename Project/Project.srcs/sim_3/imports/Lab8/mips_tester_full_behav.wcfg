@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mips_tester_full_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_tester_full" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="90000001fs"></ZoomEndTime>
+      <Cursor1Time time="90000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="183"></NameColumnWidth>
+      <ValueColumnWidth column_width="62"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="80" />
+   <wvobject fp_name="/mips_tester_full/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/mem_wr" type="logic">
+      <obj_property name="ElementShortName">mem_wr</obj_property>
+      <obj_property name="ObjectShortName">mem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/mem_readdata" type="array">
+      <obj_property name="ElementShortName">mem_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/mem_writedata" type="array">
+      <obj_property name="ElementShortName">mem_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/werf" type="logic">
+      <obj_property name="ElementShortName">werf</obj_property>
+      <obj_property name="ObjectShortName">werf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/alufn" type="array">
+      <obj_property name="ElementShortName">alufn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alufn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/reg_writeaddr" type="array">
+      <obj_property name="ElementShortName">reg_writeaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_writeaddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/reg_writedata" type="array">
+      <obj_property name="ElementShortName">reg_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/signImm" type="array">
+      <obj_property name="ElementShortName">signImm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">signImm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/aluA" type="array">
+      <obj_property name="ElementShortName">aluA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/aluB" type="array">
+      <obj_property name="ElementShortName">aluB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/pcsel" type="array">
+      <obj_property name="ElementShortName">pcsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/wasel" type="array">
+      <obj_property name="ElementShortName">wasel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wasel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/sext" type="logic">
+      <obj_property name="ElementShortName">sext</obj_property>
+      <obj_property name="ObjectShortName">sext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/bsel" type="logic">
+      <obj_property name="ElementShortName">bsel</obj_property>
+      <obj_property name="ObjectShortName">bsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/wdsel" type="array">
+      <obj_property name="ElementShortName">wdsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wdsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/asel" type="array">
+      <obj_property name="ElementShortName">asel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">asel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_pc" type="array">
+      <obj_property name="ElementShortName">c_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_instr" type="array">
+      <obj_property name="ElementShortName">c_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_mem_addr" type="array">
+      <obj_property name="ElementShortName">c_mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_mem_wr" type="logic">
+      <obj_property name="ElementShortName">c_mem_wr</obj_property>
+      <obj_property name="ObjectShortName">c_mem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_mem_readdata" type="array">
+      <obj_property name="ElementShortName">c_mem_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mem_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_mem_writedata" type="array">
+      <obj_property name="ElementShortName">c_mem_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mem_writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_werf" type="logic">
+      <obj_property name="ElementShortName">c_werf</obj_property>
+      <obj_property name="ObjectShortName">c_werf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_alufn" type="array">
+      <obj_property name="ElementShortName">c_alufn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_alufn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_Z" type="logic">
+      <obj_property name="ElementShortName">c_Z</obj_property>
+      <obj_property name="ObjectShortName">c_Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_ReadData1" type="array">
+      <obj_property name="ElementShortName">c_ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_ReadData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_ReadData2" type="array">
+      <obj_property name="ElementShortName">c_ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_ReadData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_alu_result" type="array">
+      <obj_property name="ElementShortName">c_alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_reg_writeaddr" type="array">
+      <obj_property name="ElementShortName">c_reg_writeaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_reg_writeaddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_reg_writedata" type="array">
+      <obj_property name="ElementShortName">c_reg_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_reg_writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_signImm" type="array">
+      <obj_property name="ElementShortName">c_signImm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_signImm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_aluA" type="array">
+      <obj_property name="ElementShortName">c_aluA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_aluA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_aluB" type="array">
+      <obj_property name="ElementShortName">c_aluB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_aluB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_pcsel" type="array">
+      <obj_property name="ElementShortName">c_pcsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_pcsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_wasel" type="array">
+      <obj_property name="ElementShortName">c_wasel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_wasel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_sext" type="logic">
+      <obj_property name="ElementShortName">c_sext</obj_property>
+      <obj_property name="ObjectShortName">c_sext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_bsel" type="logic">
+      <obj_property name="ElementShortName">c_bsel</obj_property>
+      <obj_property name="ObjectShortName">c_bsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_wdsel" type="array">
+      <obj_property name="ElementShortName">c_wdsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_wdsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_wr" type="logic">
+      <obj_property name="ElementShortName">c_wr</obj_property>
+      <obj_property name="ObjectShortName">c_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/c_asel" type="array">
+      <obj_property name="ElementShortName">c_asel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_asel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR" type="logic">
+      <obj_property name="ElementShortName">ERROR</obj_property>
+      <obj_property name="ObjectShortName">ERROR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_pc" type="logic">
+      <obj_property name="ElementShortName">ERROR_pc</obj_property>
+      <obj_property name="ObjectShortName">ERROR_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_instr" type="logic">
+      <obj_property name="ElementShortName">ERROR_instr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_instr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_mem_addr" type="logic">
+      <obj_property name="ElementShortName">ERROR_mem_addr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_mem_addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_mem_wr" type="logic">
+      <obj_property name="ElementShortName">ERROR_mem_wr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_mem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_mem_readdata" type="logic">
+      <obj_property name="ElementShortName">ERROR_mem_readdata</obj_property>
+      <obj_property name="ObjectShortName">ERROR_mem_readdata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_mem_writedata" type="logic">
+      <obj_property name="ElementShortName">ERROR_mem_writedata</obj_property>
+      <obj_property name="ObjectShortName">ERROR_mem_writedata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_werf" type="logic">
+      <obj_property name="ElementShortName">ERROR_werf</obj_property>
+      <obj_property name="ObjectShortName">ERROR_werf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_alufn" type="logic">
+      <obj_property name="ElementShortName">ERROR_alufn</obj_property>
+      <obj_property name="ObjectShortName">ERROR_alufn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_Z" type="logic">
+      <obj_property name="ElementShortName">ERROR_Z</obj_property>
+      <obj_property name="ObjectShortName">ERROR_Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_ReadData1" type="logic">
+      <obj_property name="ElementShortName">ERROR_ReadData1</obj_property>
+      <obj_property name="ObjectShortName">ERROR_ReadData1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_ReadData2" type="logic">
+      <obj_property name="ElementShortName">ERROR_ReadData2</obj_property>
+      <obj_property name="ObjectShortName">ERROR_ReadData2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_alu_result" type="logic">
+      <obj_property name="ElementShortName">ERROR_alu_result</obj_property>
+      <obj_property name="ObjectShortName">ERROR_alu_result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_reg_writeaddr" type="logic">
+      <obj_property name="ElementShortName">ERROR_reg_writeaddr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_reg_writeaddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_reg_writedata" type="logic">
+      <obj_property name="ElementShortName">ERROR_reg_writedata</obj_property>
+      <obj_property name="ObjectShortName">ERROR_reg_writedata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_signImm" type="logic">
+      <obj_property name="ElementShortName">ERROR_signImm</obj_property>
+      <obj_property name="ObjectShortName">ERROR_signImm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_aluA" type="logic">
+      <obj_property name="ElementShortName">ERROR_aluA</obj_property>
+      <obj_property name="ObjectShortName">ERROR_aluA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_aluB" type="logic">
+      <obj_property name="ElementShortName">ERROR_aluB</obj_property>
+      <obj_property name="ObjectShortName">ERROR_aluB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_pcsel" type="logic">
+      <obj_property name="ElementShortName">ERROR_pcsel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_pcsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_wasel" type="logic">
+      <obj_property name="ElementShortName">ERROR_wasel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_wasel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_sext" type="logic">
+      <obj_property name="ElementShortName">ERROR_sext</obj_property>
+      <obj_property name="ObjectShortName">ERROR_sext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_bsel" type="logic">
+      <obj_property name="ElementShortName">ERROR_bsel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_bsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_wdsel" type="logic">
+      <obj_property name="ElementShortName">ERROR_wdsel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_wdsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_wr" type="logic">
+      <obj_property name="ElementShortName">ERROR_wr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/ERROR_asel" type="logic">
+      <obj_property name="ElementShortName">ERROR_asel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_asel</obj_property>
+   </wvobject>
+   <wvobject fp_name="group482" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/R" type="array">
+         <obj_property name="ElementShortName">R[31:0]</obj_property>
+         <obj_property name="ObjectShortName">R[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/ALUfn" type="array">
+         <obj_property name="ElementShortName">ALUfn[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUfn[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/FlagZ" type="logic">
+         <obj_property name="ElementShortName">FlagZ</obj_property>
+         <obj_property name="ObjectShortName">FlagZ</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/subtract" type="logic">
+         <obj_property name="ElementShortName">subtract</obj_property>
+         <obj_property name="ObjectShortName">subtract</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/bool1" type="logic">
+         <obj_property name="ElementShortName">bool1</obj_property>
+         <obj_property name="ObjectShortName">bool1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/bool0" type="logic">
+         <obj_property name="ElementShortName">bool0</obj_property>
+         <obj_property name="ObjectShortName">bool0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/shft" type="logic">
+         <obj_property name="ElementShortName">shft</obj_property>
+         <obj_property name="ObjectShortName">shft</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/math" type="logic">
+         <obj_property name="ElementShortName">math</obj_property>
+         <obj_property name="ObjectShortName">math</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/FlagN" type="logic">
+         <obj_property name="ElementShortName">FlagN</obj_property>
+         <obj_property name="ObjectShortName">FlagN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/FlagC" type="logic">
+         <obj_property name="ElementShortName">FlagC</obj_property>
+         <obj_property name="ObjectShortName">FlagC</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/FlagV" type="logic">
+         <obj_property name="ElementShortName">FlagV</obj_property>
+         <obj_property name="ObjectShortName">FlagV</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/compResult" type="logic">
+         <obj_property name="ElementShortName">compResult</obj_property>
+         <obj_property name="ObjectShortName">compResult</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/addsubResult" type="array">
+         <obj_property name="ElementShortName">addsubResult[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addsubResult[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/shiftResult" type="array">
+         <obj_property name="ElementShortName">shiftResult[31:0]</obj_property>
+         <obj_property name="ObjectShortName">shiftResult[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/logicalResult" type="array">
+         <obj_property name="ElementShortName">logicalResult[31:0]</obj_property>
+         <obj_property name="ObjectShortName">logicalResult[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_tester_full/uut/mips/dp/alu/compareResult" type="array">
+         <obj_property name="ElementShortName">compareResult[31:0]</obj_property>
+         <obj_property name="ObjectShortName">compareResult[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/uut/mips/alufn" type="array">
+      <obj_property name="ElementShortName">alufn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alufn[4:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/uut/mips/c/alufn" type="array">
+      <obj_property name="ElementShortName">alufn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alufn[4:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/uut/mips/c/op" type="array">
+      <obj_property name="ElementShortName">op[5:0]</obj_property>
+      <obj_property name="ObjectShortName">op[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tester_full/uut/mips/dp/alufn" type="array">
+      <obj_property name="ElementShortName">alufn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alufn[4:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

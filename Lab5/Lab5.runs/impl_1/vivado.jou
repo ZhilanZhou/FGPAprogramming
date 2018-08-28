@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Sep 25 18:46:41 2017
+# Process ID: 8832
+# Current directory: C:/Users/MIE/Desktop/COMP541/Lab/Lab5/Lab5.runs/impl_1
+# Command line: vivado.exe -log io_demo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source io_demo.tcl -notrace
+# Log file: C:/Users/MIE/Desktop/COMP541/Lab/Lab5/Lab5.runs/impl_1/io_demo.vdi
+# Journal file: C:/Users/MIE/Desktop/COMP541/Lab/Lab5/Lab5.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source io_demo.tcl -notrace

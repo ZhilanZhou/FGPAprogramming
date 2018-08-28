@@ -1,0 +1,95 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Mon Sep 25 18:47:12 2017
+| Host         : DESKTOP-65L7E3F running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file io_demo_control_sets_placed.rpt
+| Design       : io_demo
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    26 |
+| Unused register locations in slices containing registers |    86 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              34 |           15 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              98 |           27 |
+| Yes          | No                    | No                     |              72 |           20 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              78 |           19 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------+------------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+|   Clock Signal   |                           Enable Signal                          |                        Set/Reset Signal                       | Slice Load Count | Bel Load Count |
++------------------+------------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+|  clock_IBUF_BUFG |                                                                  | accel/accel/Accel_Calculation/ACCEL_Y_CLIP[7]                 |                1 |              4 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/Cmd_Reg[0]_6                            | accel/accel/ADXL_Control/Cmd_Reg[0][6]_i_1_n_0                |                1 |              4 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/Enable_Sum                              | accel/accel/ADXL_Control/Reset_Cnt_Num_Reads                  |                1 |              4 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/FSM_sequential_StC_Adxl_Ctrl[3]_i_1_n_0 | accel/accel/RESET_INT_reg_n_0                                 |                3 |              4 |
+|  clock_IBUF_BUFG | keyb/bits                                                        | keyb/count0                                                   |                1 |              4 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/Cmd_Reg[1][6]_i_2_n_0                   | accel/accel/ADXL_Control/Cmd_Reg[1]0_in[7]                    |                1 |              5 |
+|  clock_IBUF_BUFG | keyb/keyb_char[15]_i_1_n_0                                       | keyb/keyb_char[31]_i_1_n_0                                    |                1 |              5 |
+|  clock_IBUF_BUFG |                                                                  | accel/accel/ADXL_Control/SPI_Interface/SCLK_2X_DIV[5]_i_1_n_0 |                2 |              6 |
+|  clock_IBUF_BUFG |                                                                  | accel/accel/RESET_INT_reg_n_0                                 |                4 |              6 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/Cmd_Reg[2][6]_i_2_n_0                   | accel/accel/ADXL_Control/Cmd_Reg[2]_5[7]                      |                1 |              6 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/SPI_Interface/MOSI_REG[7]_i_1_n_0       |                                                               |                3 |              7 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/Shift_Cmd_Reg                           | accel/accel/RESET_INT_reg_n_0                                 |                1 |              7 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/SPI_Interface/DONE_1_i_1_n_0            |                                                               |                1 |              8 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/SPI_Interface/MISO_REG[7]_i_1_n_0       |                                                               |                1 |              8 |
+|  clock_IBUF_BUFG | keyb/keyb_char[15]_i_1_n_0                                       |                                                               |                5 |              9 |
+|  clock_IBUF_BUFG |                                                                  | accel/accel/ADXL_Control/Cnt_SS_Inactive0                     |                3 |             10 |
+|  clock_IBUF_BUFG | keyb/bits[9]_i_1_n_0                                             |                                                               |                4 |             10 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/E[0]                                    | accel/accel/RESET_INT_reg_n_0                                 |                2 |             11 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/Data_Ready_1                            | accel/accel/RESET_INT_reg_n_0                                 |                3 |             12 |
+|  clock_IBUF_BUFG | keyb/count0                                                      |                                                               |                2 |             12 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/Enable_Sum                              | accel/accel/ADXL_Control/ACCEL_X_SUM0                         |                4 |             16 |
+|  clock_IBUF_BUFG |                                                                  | accel/accel/ADXL_Control/Reset_Sample_Rate_Div                |                4 |             20 |
+|  clock_IBUF_BUFG |                                                                  | keyb/clear                                                    |                5 |             20 |
+|  clock_IBUF_BUFG | accel/accel/ADXL_Control/SPI_Interface/Shift_Data_Reg            |                                                               |                6 |             26 |
+|  clock_IBUF_BUFG |                                                                  | snd/clear                                                     |                8 |             32 |
+|  clock_IBUF_BUFG |                                                                  |                                                               |               15 |             34 |
++------------------+------------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                     5 |
+| 5      |                     2 |
+| 6      |                     3 |
+| 7      |                     2 |
+| 8      |                     2 |
+| 9      |                     1 |
+| 10     |                     2 |
+| 11     |                     1 |
+| 12     |                     2 |
+| 16+    |                     6 |
++--------+-----------------------+
+
+
